@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart';
 import 'package:json_serializable/json_serializable.dart';
+import 'package:json_annotation/json_annotation.dart';
 
 class Article {
   final String title;
